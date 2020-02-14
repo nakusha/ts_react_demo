@@ -6,3 +6,11 @@
 
 # yarn add
 > @types/를 붙이면 typescripts에서 이해할수 있는 것으로 설치됨
+> ex) yarn add @types/styled-components
+
+# typescript 장점
+> prop-types를 이용하여 형태를 정의 안해줘도됨
+
+
+# Error
+> styled-compoenets가 안먹힘...
