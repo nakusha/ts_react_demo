@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Number from './Number';
 
 // 이름앞에 대문자I를 붙여서 interface라는것을 알려줌
 interface IState {
@@ -14,7 +15,7 @@ class App extends Component<{}, IState> {
     const { counter } = this.state;
     return (
       <div>
-        {counter} <button onClick={this.add}>Add</button>
+        <Number count={counter}/><button onClick={this.add}>Add</button>
       </div>
     );
   };
