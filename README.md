@@ -14,3 +14,4 @@
 
 # Error
 > styled-compoenets가 안먹힘...
+>> styeld-components를 설치하고 @types/styled-components를 설치해야됨(둘다되야 에러안남)
